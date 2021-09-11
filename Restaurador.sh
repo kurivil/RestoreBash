@@ -7,6 +7,8 @@ sudo apt update; sudo apt upgrade -y; sudo snap refresh
 sudo apt install build-essential -y
 sudo apt install flatpak gnome-software gnome-software-common gnome-software-dev gnome-software-doc libflatpak0 gnome-software-plugin-flatpak gnome-software-plugin-snap -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-* -y
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 sudo apt install ./steam.deb -y
 rm steam.deb

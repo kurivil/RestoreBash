@@ -1,6 +1,6 @@
 #!/bin/bash
-# Averigüe su nombre de usuario antes de usar este script
-cd /home/kurivil/
+# Averigüe su nombre de usuario antes de usar este script, asi cambia "tu usuario" y descomenta la siguiente linea
+#cd /home/'tu usuario'/
 sudo apt update; sudo apt upgrade -y; sudo snap refresh
 sudo apt install chromium-browser -y
 sudo apt remove firefox thunderbird -y
@@ -51,4 +51,6 @@ sudo apt install plank -y
 sudo apt install obsidian-icon-theme -y
 sudo apt install numix-* -y
 sudo apt install papirus-* -y
+notify-send " Listo, puede continuar con el Instalador...Part_01 "
+echo " Listo, puede continuar con el Instalador...Part_01 "
 exit 

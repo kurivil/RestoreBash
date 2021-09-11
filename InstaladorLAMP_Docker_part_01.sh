@@ -7,4 +7,5 @@ sudo apt install -y php-curl php-gd php-intl php-mbstring php-xml php-zip
 sudo apt install -y php-apcu php-memcached php-memcache
 sudo systemctl reload apache2
 notify-send " Por favor, lea el archivo "Leer aquí" y despues continue con Instalador...part_02 "
+echo " Por favor, lea el archivo "Leer aquí" y despues continue con Instalador...part_02 "
 exit

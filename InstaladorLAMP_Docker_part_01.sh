@@ -1,4 +1,6 @@
 #!/bin/bash
+# Averigüe su nombre de usuario antes de usar este script, asi cambia "tu usuario" y descomenta la siguiente linea
+#cd /home/'tu usuario'/
 sudo tasksel install lamp-server
 sudo apt-get update
  sudo apt-get install \

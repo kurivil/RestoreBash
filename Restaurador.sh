@@ -1,4 +1,5 @@
 #!/bin/bash
+# Averigüe su nombre de usuario antes de usar este script
 cd /home/kurivil/
 sudo apt update; sudo apt upgrade -y; sudo snap refresh
 sudo apt install chromium-browser -y

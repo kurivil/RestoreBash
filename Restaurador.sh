@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt update; sudo apt upgrade -y; sudo snap refresh
 sudo apt install chromium-browser -y
 sudo apt remove firefox thunderbird-y

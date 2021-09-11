@@ -1,9 +1,12 @@
 #!/bin/bash
+cd /home/kurivil/
 sudo apt update; sudo apt upgrade -y; sudo snap refresh
 sudo apt install chromium-browser -y
 sudo apt remove firefox thunderbird -y
 sudo apt autoremove -y
 sudo apt install evolution -y
+sudo apt install ttf-mscorefonts-installer -y
+sudo tasksel ubuntustudio-fonts
 sudo apt update; sudo apt upgrade -y; sudo snap refresh
 sudo apt install build-essential -y
 sudo apt install flatpak gnome-software gnome-software-common gnome-software-dev gnome-software-doc libflatpak0 gnome-software-plugin-flatpak gnome-software-plugin-snap -y

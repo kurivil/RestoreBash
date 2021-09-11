@@ -35,10 +35,10 @@ sudo apt-get update; \
   sudo apt-get install -y aspnetcore-runtime-5.0
 sudo snap install spotify
 sudo snap install discord
-snap connect discord:system-observe
+sudo snap connect discord:system-observe
 sudo snap install whatsdesk
 sudo snap install freecad
-wget -O- https://telegram.org/dl/desktop/linux
+wget https://updates.tdesktop.com/tlinux/tsetup.3.0.1.tar.xz
 tar -Jxvf tsetup.3.0.1.tar.xz
 rm tsetup.3.0.1.tar.xz
 sudo apt install nautilus-admin nautilus-nextcloud nautilus-dropbox -y  

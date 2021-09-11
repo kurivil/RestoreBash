@@ -10,6 +10,7 @@ sudo apt install flatpak gnome-software gnome-software-common gnome-software-dev
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-* -y
+rm google-chrome-stable_current_amd64.deb
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 sudo apt install ./steam.deb -y
 rm steam.deb
@@ -20,7 +21,7 @@ wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.
 sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 wget https://cdn.zoom.us/prod/5.7.31792.0820/zoom_amd64.deb
-sudo apt install ./zoom_amd64.deb
+sudo apt install ./zoom_amd64.deb -y
 rm zoom_amd64.deb
 sudo apt install default-jdk -y
 sudo apt install default-jre -y

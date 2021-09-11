@@ -40,5 +40,9 @@ sudo snap install freecad
 wget -O- https://telegram.org/dl/desktop/linux
 tar -Jxvf tsetup.3.0.1.tar.xz
 rm tsetup.3.0.1.tar.xz
-sudo apt install nautilus-admin nautilus-nextcloud nautilus-dropbox -y
-sudo apt instal plank -y
+sudo apt install nautilus-admin nautilus-nextcloud nautilus-dropbox -y  
+sudo apt install gnome-shell-extension-arc-menu
+sudo apt install plank -y
+sudo apt install obsidian-icon-theme -y
+sudo apt install numix-* -y
+sudo apt install papirus-* -y

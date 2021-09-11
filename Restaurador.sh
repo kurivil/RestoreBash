@@ -30,6 +30,7 @@ sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update && \
   sudo apt-get install -y aspnetcore-runtime-5.0
+sudo snap install spotify
 sudo snap install discord
 snap connect discord:system-observe
 sudo snap install whatsdesk

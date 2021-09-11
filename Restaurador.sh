@@ -40,3 +40,5 @@ sudo snap install freecad
 wget -O- https://telegram.org/dl/desktop/linux
 tar -Jxvf tsetup.3.0.1.tar.xz
 rm tsetup.3.0.1.tar.xz
+sudo apt install nautilus-admin nautilus-nextcloud nautilus-dropbox -y
+sudo apt instal plank -y

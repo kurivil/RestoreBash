@@ -22,6 +22,8 @@ rm packages-microsoft-prod.deb
 wget https://cdn.zoom.us/prod/5.7.31792.0820/zoom_amd64.deb
 sudo apt install ./zoom_amd64.deb
 rm zoom_amd64.deb
+sudo apt install default-jdk -y
+sudo apt install default-jre -y
 sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update && \

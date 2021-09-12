@@ -8,6 +8,7 @@ cd /var/www/html
 wget https://download.prestashop.com/download/releases/prestashop_1.7.7.7.zip
 mkdir PrestaShop
 unzip prestashop_1.7.7.7.zip -d /var/www/html/PrestaShop
+rm prestashop_1.7.7.7.zip
 wget https://cl.wordpress.org/latest-es_CL.zip
 unzip latest-es_CL.zip
 rm latest-es_CL.zip

@@ -2,7 +2,8 @@
 # este script instala Prestashop y Wordpress de manera local,
 # SIN DOCKER, porque hasta ahora no he encontrado algún buen tutorial bueno y entedible
 notify-send " Descargando PrestaShop y WordPress para su posterior instalación web "
-sudo su
+cd /var/www
+sudo chmod 777 html
 cd /var/www/html
 wget https://download.prestashop.com/download/releases/prestashop_1.7.7.7.zip
 unzip prestashop_1.7.7.7.zip -d prestashop

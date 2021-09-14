@@ -29,6 +29,12 @@ sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl -y
 #
 #acceda mediante sudo nano /etc/mysql/debian.cnf
 #
+cd /var/www/html
+sudo ln -s /usr/share/phpmyadmin
+cd
+cd /var/www
+sudo chmod -R 777 html
+#
 notify-send " Por favor, lea el archivo "Leer aquí" y despues continue con Instalador...part_02 "
 echo " Por favor, lea el archivo "Leer aquí" y despues continue con Instalador...part_02 "
 exit

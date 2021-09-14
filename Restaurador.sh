@@ -3,6 +3,7 @@
 # 2.- Averigüe su nombre de usuario antes de usar este script, asi cambia "tu usuario" y descomenta la siguiente linea
 #cd /home/'tu usuario'/
 sudo apt update; sudo apt upgrade -y; sudo snap refresh
+sudo apt install tasksel -y
 sudo apt install chromium-browser -y
 sudo apt remove firefox thunderbird -y
 sudo apt autoremove -y

@@ -20,6 +20,10 @@ sudo apt install -y php-apcu php-memcached php-memcache
 sudo systemctl reload apache2
 sudo a2enmod rewrite
 sudo systemctl restart apache2
+#
+#Esto instala PhpMyAdmin, recuerde que tiene que elegir Apache2
+#
+sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
 notify-send " Por favor, lea el archivo "Leer aquí" y despues continue con Instalador...part_02 "
 echo " Por favor, lea el archivo "Leer aquí" y despues continue con Instalador...part_02 "
 exit

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Averigüe su nombre de usuario antes de usar este script, asi cambia "tu usuario" y descomenta la siguiente linea
-#cd /home/'tu usuario'/
+cd /home/kurivil/
 sudo apt install tasksel -y
 sudo tasksel install openssh-server
 sudo tasksel install lamp-server

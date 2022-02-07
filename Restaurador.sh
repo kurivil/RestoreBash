@@ -1,7 +1,7 @@
 #!/bin/bash
 # 1.- algunos items que aparecen acá estan como comentario, puesto que son las cosas que ocupo o suelo ocupar, si le sirve descomentelas.
 # 2.- Averigüe su nombre de usuario antes de usar este script, asi cambia "tu usuario" y descomenta la siguiente linea
-#cd /home/'tu usuario'/
+cd /home/kurivil/
 sudo apt update; sudo apt upgrade -y; sudo snap refresh
 sudo apt install tasksel -y
 sudo apt install chromium-browser -y
@@ -22,9 +22,9 @@ rm google-chrome-stable_current_amd64.deb
 sudo apt install chrome-gnome-shell -y
 #
 # Steam
-#wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
-#sudo apt install ./steam.deb -y
-#rm steam.deb
+wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
+sudo apt install ./steam.deb -y
+rm steam.deb
 #
 wget https://az764295.vo.msecnd.net/stable/e7d7e9a9348e6a8cc8c03f877d39cb72e5dfb1ff/code_1.60.0-1630494279_amd64.deb
 sudo apt install ./code_* -y
@@ -51,20 +51,20 @@ sudo snap connect discord:system-observe
 sudo snap install whatsdesk
 #
 #FreeCAD
-#sudo snap install freecad
+sudo snap install freecad
 #
 #Telegram
-#wget https://updates.tdesktop.com/tlinux/tsetup.3.0.1.tar.xz
-#tar -Jxvf tsetup.3.0.1.tar.xz
-#rm tsetup.3.0.1.tar.xz
+wget https://updates.tdesktop.com/tlinux/tsetup.3.0.1.tar.xz
+tar -Jxvf tsetup.3.0.1.tar.xz
+rm tsetup.3.0.1.tar.xz
 #
 # Parte de mi personalizacion
-#sudo apt install nautilus-admin nautilus-nextcloud nautilus-dropbox -y  
-#sudo apt install gnome-shell-extensions gnome-tweaks gnome-shell-extension-arc-menu chrome-gnome-shell -y
-#sudo apt install plank -y
-#sudo apt install obsidian-icon-theme -y
-#sudo apt install numix-* -y
-#sudo apt install papirus-* -y
+sudo apt install nautilus-admin nautilus-nextcloud nautilus-dropbox -y  
+sudo apt install gnome-shell-extensions gnome-tweaks gnome-shell-extension-arc-menu chrome-gnome-shell -y
+sudo apt install plank -y
+sudo apt install obsidian-icon-theme -y
+sudo apt install numix-* -y
+sudo apt install papirus-* -y
 notify-send " Listo, puede continuar con el Instalador...Part_01 "
 echo " Listo, puede continuar con el Instalador...Part_01 "
 exit 
